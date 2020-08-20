@@ -5,7 +5,7 @@ const VideoDetail= ({video})=>{
     return(
         <div>
             <div className="ui embed">
-                <iframe title="video property" width="450" height="315" src={`https://www.youtube.com/embed/${video.id.videoId}`} frameBorder="0"
+                <iframe title="video property" width="400" height="315" src={`https://www.youtube.com/embed/${video.id.videoId}`} frameBorder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen>
 
